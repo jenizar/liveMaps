@@ -11,15 +11,19 @@ Guides:
 1. Start Zookeeper server
 
 D:\kafka\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties
+
 2. Start Kafka server
 
 D:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties
+
 3. Create topic
 
 D:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost:2181 --topic geodataleaflet --create --partitions 1 --replication-factor 1
+
 4. Check & Verified the topic
 
 D:\kafka\bin\windows>kafka-topics.bat --zookeeper 0.0.0.0:2181 --topic geodataleaflet --describe
+
 5. Start XAMPP server (Apache - MySQL)
 6. Create db/table and insert data to MySQL
 7. Run app.py
