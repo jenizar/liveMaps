@@ -33,7 +33,7 @@ C:\kafka\bin\windows>kafka-topics.bat --zookeeper 0.0.0.0:2181 --topic geodatale
 
 Attention:
 
-If your kafka server not working to start, you can clear data logs (as your topic registered) in directory C:\tmp\kafka-logs (windows)
+If your kafka server not working to start, you can clear data logs in each topics folder in directory C:\tmp\kafka-logs (windows)
 
 References:
 1. https://www.youtube.com/watch?v=vD9Ic8KqEDw
