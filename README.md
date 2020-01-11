@@ -31,6 +31,9 @@ C:\kafka\bin\windows>kafka-topics.bat --zookeeper 0.0.0.0:2181 --topic geodatale
 9. Run busdata2.py
 10. Run busdata3.py
 
+Attention:
+If your kafka server not working to start, you can clear data logs (as your topic registered) in directory C:\tmp\kafka-logs (windows)
+
 References:
 1. https://www.youtube.com/watch?v=vD9Ic8KqEDw
 2. https://www.youtube.com/watch?v=wUJJP_8ihAM&t=451s
